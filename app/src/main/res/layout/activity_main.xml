@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C3BEBF"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/hello_friend"
+        android:textColor="#FFFFFFFF"
+        android:textSize="35sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:hint="@string/your_name"
+        android:textSize="25sp" />
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="@color/purple_500"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="@string/button"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Switch
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:gravity="center"
+        android:showText="true"
+        android:text="@string/switch_happy"
+        android:textOff="@string/no"
+        android:textOn="@string/yes"
+        android:textSize="25sp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <CheckBox
+        android:layout_width="90sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:background="#B654C6"
+        android:text="@string/check_box"
+        android:textColor="@color/white"/>
+
+    <ToggleButton
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_marginTop="50sp"
+        android:layout_gravity="center"
+        android:textOff="@string/toggle_button_off"
+        android:textOn="@string/toggle_button_on"
+        android:background="#FFEB3B"
+        android:fontFamily="monospace"/>
+
+
+</LinearLayout>
+

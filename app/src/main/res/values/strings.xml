@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Home Work Android</string>
+    <string name="hello_friend">Hello Friend!</string>
+    <string name="your_name">What your name?</string>
+    <string name="button">Input</string>
+    <string name="switch_happy">Your happy?</string>
+    <string name="yes">Yes)</string>
+    <string name="no">No(</string>
+    <string name="check_box">Smile)</string>
+    <string name="toggle_button_on">Sun!)))</string>
+    <string name="toggle_button_off">On sun!)))</string>
+
+</resources>
